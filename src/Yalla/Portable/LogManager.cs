@@ -16,7 +16,7 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Initialize the logging system.
+        /// Initializes the logging system.
         /// </summary>
         /// <param name="factory">Log factory.</param>
         public static void Initialize(ILogFactory factory)
@@ -60,36 +60,40 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Retrieves or creates a named logger.
+        /// Retrieves or creates a named log.
         /// </summary>
-        /// <param name="name">The name of the logger to retrieve.</param>
+        /// <param name="name">The name of the log to retrieve.</param>
+        /// <returns>Log.</returns>
         public static ILog GetLogger(string name)
         {
             return Factory.GetLogger(name);
         }
 
         /// <summary>
-        /// Retrieves or creates a named logger.
+        /// Retrieves or creates a named log.
         /// </summary>
-        /// <param name="type">The type to retrieve the logger for.</param>
+        /// <param name="type">The type to retrieve the log for.</param>
+        /// <returns>Log.</returns>
         public static ILog GetLogger(Type type)
         {
             return Factory.GetLogger(type);
         }
 
         /// <summary>
-        /// Retrieves or creates a named logger.
+        /// Retrieves or creates a named log.
         /// </summary>
-        /// <typeparam name="T">The type to retrieve the logger for.</typeparam>
+        /// <typeparam name="T">The type to retrieve the log for.</typeparam>
+        /// <returns>Log.</returns>
         public static ILog GetLogger<T>()
         {
             return GetLogger(typeof(T));
         }
 
         /// <summary>
-        /// Retrieves or creates a logger named after the caller source file.
+        /// Retrieves or creates a log named after the caller source file.
         /// </summary>
-        /// <param name="filePath">The name of the logger to retrieve.</param>
+        /// <param name="filePath">The name of the log to retrieve.</param>
+        /// <returns>Log.</returns>
         public static ILog GetLoggerForCurrentFile([CallerFilePath] string filePath = null)
         {
             return GetLogger(filePath);

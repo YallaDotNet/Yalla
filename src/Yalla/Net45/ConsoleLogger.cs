@@ -30,7 +30,7 @@ namespace Yalla
     public class ConsoleLoggerSettings : LoggerSettings
     {
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.ConsoleLoggerSettings"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.ConsoleLoggerSettings"/> class.
         /// </summary>
         public ConsoleLoggerSettings()
         {
@@ -40,6 +40,7 @@ namespace Yalla
         /// <summary>
         /// Gets or sets the target.
         /// </summary>
+        /// <value>Target.</value>
         public ConsoleTargetType Target
         {
             get;
@@ -70,14 +71,14 @@ namespace Yalla
     public class ConsoleLoggerFactoryAdapter : LoggerFactoryAdapterBase<ConsoleLoggerSettings>
     {
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.ConsoleLoggerFactoryAdapter"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.ConsoleLoggerFactoryAdapter"/> class.
         /// </summary>
         public ConsoleLoggerFactoryAdapter()
         {
         }
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.ConsoleLoggerFactoryAdapter"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.ConsoleLoggerFactoryAdapter"/> class.
         /// </summary>
         /// <param name="settings">Logger settings.</param>
         public ConsoleLoggerFactoryAdapter(ConsoleLoggerSettings settings)

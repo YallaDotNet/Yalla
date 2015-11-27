@@ -11,6 +11,7 @@ namespace Yalla
         /// Returns the file name and extension for the specified caller.
         /// </summary>
         /// <param name="callerInfo">Compiler-populated caller information.</param>
+        /// <returns>File name and extension.</returns>
         public static string GetFileName(this CallerInfo callerInfo)
         {
             return Path.GetFileName(callerInfo.FilePath);

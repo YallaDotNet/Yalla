@@ -24,14 +24,14 @@ namespace Yalla.Configuration
         public const string FormatterPropertyName = "formatter";
 
         /// <summary>
-        /// Creates a new instance of the <see cref="ConfigurationSectionHandler"/> class.
+        /// Initializes a new instance of the <see cref="ConfigurationSectionHandler"/> class.
         /// </summary>
         public ConfigurationSectionHandler()
         {
         }
 
         /// <summary>
-        /// Creates a new instance of the <see cref="ConfigurationSectionHandler"/> class.
+        /// Initializes a new instance of the <see cref="ConfigurationSectionHandler"/> class.
         /// </summary>
         /// <param name="reader">The reader.</param>
         public ConfigurationSectionHandler(XmlReader reader)

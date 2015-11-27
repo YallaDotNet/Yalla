@@ -11,7 +11,7 @@ namespace Yalla
         private readonly Type _type;
 
         /// <summary>
-        /// Creates a new instance of <see cref="Yalla.SettingsAttribute"/>.
+        /// Initializes a new instance of <see cref="Yalla.SettingsAttribute"/>.
         /// </summary>
         /// <param name="type">The type of the settings.</param>
         public SettingsAttribute(Type type)

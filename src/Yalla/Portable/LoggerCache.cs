@@ -32,6 +32,7 @@ namespace Yalla
         /// </summary>
         /// <param name="key">Key.</param>
         /// <param name="createLogger">Logger factory method.</param>
+        /// <returns>Logger.</returns>
         public TLogger GetOrAdd(TKey key, Func<TKey, TLogger> createLogger)
         {
             var loggerRef = GetLoggerRef(key, createLogger);

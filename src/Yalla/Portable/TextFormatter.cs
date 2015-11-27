@@ -11,8 +11,9 @@ namespace Yalla
     public class TextFormatterSettings
     {
         /// <summary>
-        /// Message format.
+        /// Gets or sets the message format.
         /// </summary>
+        /// <value>Message format.</value>
         public string Message
         {
             get;
@@ -20,8 +21,9 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Exception message format.
+        /// Gets or sets the exception message format.
         /// </summary>
+        /// <value>Exception message format.</value>
         public string ExceptionMessage
         {
             get;
@@ -54,7 +56,7 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Appends the message.
+        /// Appends a message.
         /// </summary>
         /// <param name="builder">String builder.</param>
         /// <param name="provider">Format provider.</param>
@@ -68,7 +70,7 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Appends the exception.
+        /// Appends an exception.
         /// </summary>
         /// <param name="builder">String builder.</param>
         /// <param name="provider">Format provider.</param>
@@ -84,6 +86,7 @@ namespace Yalla
         /// <summary>
         /// Gets or sets the text formatter settings.
         /// </summary>
+        /// <value>Settings.</value>
         public TextFormatterSettings Settings
         {
             get { return _settings; }

@@ -9,14 +9,14 @@ namespace Yalla
     public class YallaTraceListener : TraceListener
     {
         /// <summary>
-        /// Creates a new instance of the <see cref="YallaTraceListener"/> class.
+        /// Initializes a new instance of the <see cref="YallaTraceListener"/> class.
         /// </summary>
         public YallaTraceListener()
         {
         }
 
         /// <summary>
-        /// Creates a new instance of the <see cref="YallaTraceListener"/> class.
+        /// Initializes a new instance of the <see cref="YallaTraceListener"/> class.
         /// </summary>
         /// <param name="properties">Properties.</param>
         public YallaTraceListener(NameValueCollection properties)
@@ -64,8 +64,9 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Log level.
+        /// Gets or sets the log level.
         /// </summary>
+        /// <value>Log level.</value>
         public LogLevel Level
         {
             get;

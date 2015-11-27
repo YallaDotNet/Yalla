@@ -11,6 +11,7 @@ namespace Yalla
         /// <summary>
         /// Gets or sets a value indicating whether the <see cref="Yalla.TraceLogger"/> should include the log category.
         /// </summary>
+        /// <value><c>true</c> to include the log category; otherwise, <c>false</c>.</value>
         public bool IncludeCategory
         {
             get;
@@ -49,6 +50,7 @@ namespace Yalla
         /// <summary>
         /// Gets a value indicating whether this logger is enabled.
         /// </summary>
+        /// <value><c>true</c> if this logger is enabled.</value>
         protected override bool IsEnabled()
         {
             return Trace.Listeners.Count > 0;

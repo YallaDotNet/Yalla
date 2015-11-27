@@ -11,7 +11,7 @@ namespace Yalla
 		private readonly SystemLog _log;
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.SystemLogger"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.SystemLogger"/> class.
         /// </summary>
         /// <param name="name">The name of the logger.</param>
 		public SystemLogger(string name)
@@ -79,6 +79,7 @@ namespace Yalla
         /// Gets a value indicating whether logging of entries of the specified level is enabled.
         /// </summary>
         /// <param name="level">Log level.</param>
+        /// <returns><c>true</c> if logging of entries of the specified level is enabled.</returns>
 		protected override bool IsEnabled(string level)
 		{
 			return true;
@@ -119,7 +120,7 @@ namespace Yalla
         /// Gets a logger instance by name.
         /// </summary>
         /// <param name="name">The name of the logger.</param>
-        /// <returns>The logger.</returns>
+        /// <returns>Logger.</returns>
         public override ILogger GetLogger(string name)
         {
             name = name ?? string.Empty;

@@ -6,8 +6,9 @@ namespace Yalla
     partial class LogManager
     {
         /// <summary>
-        /// Retrieves or creates the logger for the current type.
+        /// Retrieves or creates the log for the current type.
         /// </summary>
+        /// <value>Log.</value>
         public static ILog GetCurrentClassLogger()
         {
 #if SILVERLIGHT

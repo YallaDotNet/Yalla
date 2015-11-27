@@ -44,6 +44,7 @@ namespace Yalla.Configuration
         /// <summary>
         /// Gets or sets a value indicating whether this configuration element is present.
         /// </summary>
+        /// <value><c>true</c> if the configuration element is present; otherwise, <c>false</c></value>
         public bool IsPresent
         {
             get { return _isPresent; }

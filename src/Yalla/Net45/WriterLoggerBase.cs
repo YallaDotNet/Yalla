@@ -13,7 +13,7 @@ namespace Yalla
         private readonly TextWriter _writer;
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.WriterLoggerBase{TSettings}"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.WriterLoggerBase{TSettings}"/> class.
         /// </summary>
         /// <param name="name">The name of the logger.</param>
         /// <param name="settings">Logger settings.</param>

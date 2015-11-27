@@ -14,6 +14,7 @@ namespace Yalla
         /// </summary>
         /// <param name="key">Key.</param>
         /// <param name="createLogger">Logger factory method.</param>
+        /// <returns>Logger.</returns>
         TLogger GetOrAdd(TKey key, Func<TKey, TLogger> createLogger);
     }
 }

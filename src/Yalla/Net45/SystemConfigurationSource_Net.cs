@@ -10,9 +10,10 @@ namespace Yalla
     partial class SystemConfigurationSource : IConfigurationSource
     {
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.SystemConfigurationSource"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.SystemConfigurationSource"/> class.
         /// </summary>
         /// <param name="sectionName">Section name.</param>
+        /// <returns>An instance of <see cref="Yalla.SystemConfigurationSource"/>.</returns>
         public static SystemConfigurationSource FromSection(string sectionName)
         {
             var section = ConfigurationManager.GetSection(sectionName);
@@ -20,9 +21,10 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.SystemConfigurationSource"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.SystemConfigurationSource"/> class.
         /// </summary>
         /// <param name="exePath">The path of the executable (exe) file.</param>
+        /// <returns>An instance of <see cref="Yalla.SystemConfigurationSource"/>.</returns>
         public static SystemConfigurationSource FromExeConfiguration(string exePath)
         {
             var config = ConfigurationManager.OpenExeConfiguration(exePath);
@@ -30,10 +32,11 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.SystemConfigurationSource"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.SystemConfigurationSource"/> class.
         /// </summary>
         /// <param name="exePath">The path of the executable (exe) file.</param>
         /// <param name="sectionName">Section name.</param>
+        /// <returns>An instance of <see cref="Yalla.SystemConfigurationSource"/>.</returns>
         public static SystemConfigurationSource FromExeConfiguration(string exePath, string sectionName)
         {
             var config = ConfigurationManager.OpenExeConfiguration(exePath);

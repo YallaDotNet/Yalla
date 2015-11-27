@@ -11,6 +11,7 @@ namespace Yalla
         /// <summary>
         /// Gets or sets a value indicating whether the <see cref="Yalla.DebuggerLogger"/> should include the log category.
         /// </summary>
+        /// <value><c>true</c> to include the log category; otherwise, <c>false</c>.</value>
         public bool IncludeCategory
         {
             get;
@@ -49,6 +50,7 @@ namespace Yalla
         /// <summary>
         /// Gets a value indicating whether this logger is enabled.
         /// </summary>
+        /// <value><c>true</c> if this logger is enabled.</value>
         protected override bool IsEnabled()
         {
             return Debugger.IsLogging();
@@ -75,14 +77,14 @@ namespace Yalla
     public class DebuggerLoggerFactoryAdapter : LoggerFactoryAdapterBase<DebuggerLoggerSettings>
     {
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.DebuggerLoggerFactoryAdapter"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.DebuggerLoggerFactoryAdapter"/> class.
         /// </summary>
         public DebuggerLoggerFactoryAdapter()
         {
         }
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.DebuggerLoggerFactoryAdapter"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.DebuggerLoggerFactoryAdapter"/> class.
         /// </summary>
         /// <param name="settings">Debugger logger settings.</param>
         public DebuggerLoggerFactoryAdapter(DebuggerLoggerSettings settings)
@@ -112,7 +114,7 @@ namespace Yalla
         /// Gets a logger instance by name.
         /// </summary>
         /// <param name="name">The name of the logger.</param>
-        /// <returns>The logger.</returns>
+        /// <returns>Logger.</returns>
         public override ILogger GetLogger(string name)
         {
             return new DebuggerLogger(name, Settings);

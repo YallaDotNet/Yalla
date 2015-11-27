@@ -10,7 +10,7 @@ namespace Yalla
         private readonly string _path;
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.XamlConfigurationSource"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.XamlConfigurationSource"/> class.
         /// </summary>
         /// <param name="path">The path to use as source.</param>
         public XamlConfigurationSource(string path)

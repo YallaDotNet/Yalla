@@ -64,6 +64,7 @@ namespace Yalla
 		/// Retrieves or creates a named log.
 		/// </summary>
 		/// <param name="name">The name of the log to retrieve.</param>
+        /// <returns>Log.</returns>
         ILog ILogFactory.GetLogger(string name)
         {
             return LoggerCache.GetOrAdd(name, CreateLogger);
@@ -73,6 +74,7 @@ namespace Yalla
 		/// Retrieves or creates a named log.
 		/// </summary>
 		/// <param name="type">The type to retrieve the log for.</param>
+        /// <returns>Log.</returns>
         public ILog GetLogger(Type type)
         {
             return LoggerCache.GetOrAdd(type.FullName, _ => CreateLogger(type));
@@ -81,6 +83,7 @@ namespace Yalla
 		/// <summary>
 		/// Gets or sets the logger factory adapter.
 		/// </summary>
+        /// <value>Logger factory adapter.</value>
         public ILoggerFactoryAdapter Adapter
         {
             get { return _adapter; }
@@ -95,6 +98,7 @@ namespace Yalla
 		/// <summary>
 		/// Gets or sets the log formatter.
 		/// </summary>
+        /// <value>Log formatter.</value>
         public ILogFormatter Formatter
         {
             get { return _formatter; }
@@ -118,9 +122,6 @@ namespace Yalla
             return new Log(logger, Formatter);
         }
 
-        /// <summary>
-        /// Gets the logger cache.
-        /// </summary>
         private ILoggerCache<string, ILog> LoggerCache
         {
             get { return _loggerCache; }

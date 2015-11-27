@@ -10,7 +10,7 @@ namespace Yalla
 	class SystemLogger : LoggerBase<LogPriority>
 	{
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.SystemLogger"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.SystemLogger"/> class.
         /// </summary>
         /// <param name="name">Name.</param>
 		public SystemLogger(string name)
@@ -37,6 +37,7 @@ namespace Yalla
         /// Gets a value indicating whether logging of entries of the specified level is enabled.
         /// </summary>
         /// <param name="level">Log level.</param>
+        /// <value><c>true</c> if logging of entries of the specified level is enabled.</value>
 		protected override bool IsEnabled(LogPriority level)
 		{
 			return global::Android.Util.Log.IsLoggable(Name, level);
@@ -102,7 +103,7 @@ namespace Yalla
     public class SystemLoggerFactoryAdapter : LoggerFactoryAdapterBase
     {
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.SystemLoggerFactoryAdapter"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.SystemLoggerFactoryAdapter"/> class.
         /// </summary>
         public SystemLoggerFactoryAdapter()
         {
@@ -111,6 +112,7 @@ namespace Yalla
         /// <summary>
         /// Initializes the logging system.
         /// </summary>
+        /// <param name="prologue">Prologue.</param>
         public override void Initialize(string prologue)
         {
         }
@@ -118,6 +120,7 @@ namespace Yalla
         /// <summary>
         /// Terminates the logging system.
         /// </summary>
+        /// <param name="epilogue">Epilogue.</param>
         public override void Shutdown(string epilogue)
         {
         }
@@ -126,6 +129,7 @@ namespace Yalla
         /// Gets a logger instance by name.
         /// </summary>
         /// <param name="name">The name of the logger.</param>
+        /// <returns>Logger.</returns>
         public override ILogger GetLogger(string name)
         {
             return new SystemLogger(name);

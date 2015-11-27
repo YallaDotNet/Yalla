@@ -10,6 +10,7 @@
         /// <summary>
         /// Gets the default instance of the <see cref="Yalla.SystemConfigurationSource"/> class.
         /// </summary>
+        /// <value>The instance.</value>
         public static SystemConfigurationSource Default
         {
             get { return _default; }

@@ -24,7 +24,7 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.DefaultConfigurationSource"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.DefaultConfigurationSource"/> class.
         /// </summary>
         /// <param name="sectionName">Section name.</param>
         public static DefaultConfigurationSource FromSection(string sectionName)
@@ -34,7 +34,7 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.DefaultConfigurationSource"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.DefaultConfigurationSource"/> class.
         /// </summary>
         /// <param name="sectionGroupName">Section group name.</param>
         /// <param name="sectionName">Section name.</param>
@@ -45,7 +45,7 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.DefaultConfigurationSource"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.DefaultConfigurationSource"/> class.
         /// </summary>
         /// <param name="exePath">The path of the executable (exe) file.</param>
         public static DefaultConfigurationSource FromExeConfiguration(string exePath)
@@ -55,7 +55,7 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.DefaultConfigurationSource"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.DefaultConfigurationSource"/> class.
         /// </summary>
         /// <param name="exePath">The path of the executable (exe) file.</param>
         /// <param name="sectionName">Section name.</param>
@@ -66,7 +66,7 @@ namespace Yalla
         }
 
         /// <summary>
-        /// Creates a new instance of the <see cref="Yalla.DefaultConfigurationSource"/> class.
+        /// Initializes a new instance of the <see cref="Yalla.DefaultConfigurationSource"/> class.
         /// </summary>
         /// <param name="exePath">The path of the executable (exe) file.</param>
         /// <param name="sectionGroupName">Section group name.</param>

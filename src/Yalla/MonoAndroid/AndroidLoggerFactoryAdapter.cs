@@ -17,7 +17,8 @@ namespace Yalla
 		/// <summary>
 		/// Initializes the logging system.
 		/// </summary>
-		public override void Initialize(string prologue)
+        /// <param name="prologue">Prologue.</param>
+        public override void Initialize(string prologue)
 		{
 		}
 
@@ -25,7 +26,8 @@ namespace Yalla
 		/// <summary>
 		/// Terminates the logging system.
 		/// </summary>
-		public override void Shutdown(string epilogue)
+        /// <param name="epilogue">Epilogue.</param>
+        public override void Shutdown(string epilogue)
 		{
 		}
 
@@ -33,7 +35,8 @@ namespace Yalla
 		/// Gets a logger instance by name.
 		/// </summary>
 		/// <param name="name">The name of the logger.</param>
-		public override ILogger GetLogger(string name)
+        /// <returns>Logger.</returns>
+        public override ILogger GetLogger(string name)
 		{
 			return new AndroidLogger(name);
 		}
