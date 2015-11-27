@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{2D0A2346-BCEB-4AD2-B324-466CD6FBBB94}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Yalla</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AssemblyName>Yalla</AssemblyName>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+    <DocumentationFile>bin\Debug\Yalla.xml</DocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <DocumentationFile>bin\Release\Yalla.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Portable\CallerInfoExtensions.cs">
+      <Link>CallerInfoExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\DefaultFormatter.cs">
+      <Link>DefaultFormatter.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\FormatterBase.cs">
+      <Link>FormatterBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\LogFactory.cs">
+      <Link>LogFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\LogManager.cs">
+      <Link>LogManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\NoOpLogger.cs">
+      <Link>NoOpLogger.cs</Link>
+    </Compile>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="..\Net45\DebuggerLogger.cs">
+      <Link>DebuggerLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\SystemConfigurationSource.cs">
+      <Link>SystemConfigurationSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\LogManager_Net.cs">
+      <Link>LogManager_Net.cs</Link>
+    </Compile>
+    <Compile Include="SystemLogger.cs" />
+    <Compile Include="..\Portable\ILoggerCache.cs">
+      <Link>ILoggerCache.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\LoggerCache.cs">
+      <Link>LoggerCache.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\LoggerCache_Concurrent.cs">
+      <Link>LoggerCache_Concurrent.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Yalla.Core\Portable\Yalla.Core.csproj">
+      <Project>{25FD586A-B4E6-4DBE-8B88-80A3611B6FD3}</Project>
+      <Name>Yalla.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

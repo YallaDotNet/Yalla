@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{E90A969A-FE05-4CC3-BF31-5509A5114701}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Yalla.MonoTouch</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Yalla.MonoTouch</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <DocumentationFile>bin\Debug\Yalla.MonoTouch.xml</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <DocumentationFile>bin\Release\Yalla.MonoTouch.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\Portable\CallerInfoExtensions.cs">
+      <Link>CallerInfoExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\DefaultFormatter.cs">
+      <Link>DefaultFormatter.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\FormatterBase.cs">
+      <Link>FormatterBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\LogFactory.cs">
+      <Link>LogFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\LogManager.cs">
+      <Link>LogManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\NoOpLogger.cs">
+      <Link>NoOpLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\TextFormatter.cs">
+      <Link>TextFormatter.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\ConsoleLogger.cs">
+      <Link>ConsoleLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\WriterLoggerBase.cs">
+      <Link>WriterLoggerBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\DebuggerLogger.cs">
+      <Link>DebuggerLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\TraceLogger.cs">
+      <Link>TraceLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\YallaTraceListener.cs">
+      <Link>YallaTraceListener.cs</Link>
+    </Compile>
+    <Compile Include="..\MonoMac\SystemLogger.cs">
+      <Link>SystemLogger.cs</Link>
+    </Compile>
+    <Compile Include="MonoMac\Darwin\SystemLog.cs" />
+    <Compile Include="MonoMac\Constants.cs" />
+    <Compile Include="..\Portable\SystemConfigurationSource.cs">
+      <Link>SystemConfigurationSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\LogManager_Net.cs">
+      <Link>LogManager_Net.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\LoggerCache_Concurrent.cs">
+      <Link>LoggerCache_Concurrent.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\ILoggerCache.cs">
+      <Link>ILoggerCache.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\LoggerCache.cs">
+      <Link>LoggerCache.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Yalla.Core\Portable\Yalla.Core.csproj">
+      <Project>{25FD586A-B4E6-4DBE-8B88-80A3611B6FD3}</Project>
+      <Name>Yalla.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

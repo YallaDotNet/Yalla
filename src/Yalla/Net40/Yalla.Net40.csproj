@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E462C020-ABF2-4FF6-94E9-7401425E9CE0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Yalla</RootNamespace>
+    <AssemblyName>Yalla</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Debug\Yalla.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Release\Yalla.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>..\Portable\Properties\Yalla.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO">
+      <HintPath>..\..\packages\Microsoft.Bcl.1.1.9\lib\net40\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\packages\Microsoft.Bcl.1.1.9\lib\net40\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>..\..\packages\Microsoft.Bcl.1.1.9\lib\net40\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="Yalla.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Yalla.Core\src\Yalla.Core\Portable.Net40\bin\Release\Yalla.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Net45\Configuration\ConfigurationSectionHandler.cs">
+      <Link>Configuration\ConfigurationSectionHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\Configuration\FormatterConfigurationElement.cs">
+      <Link>Configuration\FormatterConfigurationElement.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\Configuration\TypeConfigurationElement.cs">
+      <Link>Configuration\TypeConfigurationElement.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\LoggerCache_Concurrent.cs">
+      <Link>LoggerCache_Concurrent.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\LogManager_Net.cs">
+      <Link>LogManager_Net.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\WriterLoggerBase.cs">
+      <Link>WriterLoggerBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\XamlConfigurationSource.cs">
+      <Link>XamlConfigurationSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\Configuration\AdapterConfigurationElement.cs">
+      <Link>Configuration\AdapterConfigurationElement.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\ConsoleLogger.cs">
+      <Link>ConsoleLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\DebuggerLogger.cs">
+      <Link>DebuggerLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\TraceLogger.cs">
+      <Link>TraceLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\YallaTraceListener.cs">
+      <Link>YallaTraceListener.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\CallerInfoExtensions.cs">
+      <Link>CallerInfoExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\DefaultFormatter.cs">
+      <Link>DefaultFormatter.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\FormatterBase.cs">
+      <Link>FormatterBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\ILoggerCache.cs">
+      <Link>ILoggerCache.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\LogFactory.cs">
+      <Link>LogFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\LoggerCache.cs">
+      <Link>LoggerCache.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\LogManager.cs">
+      <Link>LogManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\NoOpLogger.cs">
+      <Link>NoOpLogger.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\TextFormatter.cs">
+      <Link>TextFormatter.cs</Link>
+    </Compile>
+    <Compile Include="Configuration\TypeExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\Portable\SystemConfigurationSource.cs">
+      <Link>SystemConfigurationSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Net45\SystemConfigurationSource_Net.cs">
+      <Link>SystemConfigurationSource_Net.cs</Link>
+    </Compile>
+    <Compile Include="..\Portable\SettingsAttribute.cs">
+      <Link>SettingsAttribute.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Portable\Properties\Yalla.snk">
+      <Link>Properties\Yalla.snk</Link>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
