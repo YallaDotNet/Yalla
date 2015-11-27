@@ -104,6 +104,9 @@
     <Compile Include="..\Portable\CallerInfoExtensions.cs">
       <Link>CallerInfoExtensions.cs</Link>
     </Compile>
+    <Compile Include="..\Portable\Configuration\NamespaceDoc.cs">
+      <Link>Configuration\NamespaceDoc.cs</Link>
+    </Compile>
     <Compile Include="..\Portable\ILoggerCache.cs">
       <Link>ILoggerCache.cs</Link>
     </Compile>
@@ -115,9 +118,6 @@
     </Compile>
     <Compile Include="..\Portable\LogManager.cs">
       <Link>LogManager.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\NamespaceDoc.cs">
-      <Link>NamespaceDoc.cs</Link>
     </Compile>
     <Compile Include="..\Portable\Properties\AssemblyInfo.cs">
       <Link>Properties\AssemblyInfo.cs</Link>

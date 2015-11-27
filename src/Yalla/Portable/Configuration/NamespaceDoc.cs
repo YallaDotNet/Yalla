@@ -1,7 +1,7 @@
-﻿namespace Yalla
+﻿namespace Yalla.Configuration
 {
     /// <summary>
-    /// Yalla types.
+    /// Yalla Configuration types.
     /// </summary>
     [System.Runtime.CompilerServices.CompilerGenerated]
     internal sealed class NamespaceDoc
