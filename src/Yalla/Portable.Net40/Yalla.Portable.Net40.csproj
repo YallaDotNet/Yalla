@@ -55,6 +55,9 @@
     <Compile Include="..\Portable\LogManager.cs">
       <Link>LogManager.cs</Link>
     </Compile>
+    <Compile Include="..\Portable\NamespaceDoc.cs">
+      <Link>NamespaceDoc.cs</Link>
+    </Compile>
     <Compile Include="..\Portable\SystemConfigurationSource.cs">
       <Link>SystemConfigurationSource.cs</Link>
     </Compile>
