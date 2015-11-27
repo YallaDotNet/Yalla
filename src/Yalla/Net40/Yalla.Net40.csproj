@@ -119,11 +119,13 @@
     <Compile Include="..\Portable\NamespaceDoc.cs">
       <Link>NamespaceDoc.cs</Link>
     </Compile>
+    <Compile Include="..\Portable\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="..\Portable\TextFormatter.cs">
       <Link>TextFormatter.cs</Link>
     </Compile>
     <Compile Include="Configuration\TypeExtensions.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="..\Portable\SystemConfigurationSource.cs">
       <Link>SystemConfigurationSource.cs</Link>
     </Compile>
