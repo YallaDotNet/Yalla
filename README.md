@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/gdajpbvrddyb91hc)](https://ci.appveyor.com/project/dmitry-shechtman/yalla)
+
 Yalla
 =====
 
@@ -14,6 +16,11 @@ Supported Platforms
 * Xamarin.Android
 * Xamarin.iOS
 * Portable Class Libraries
+
+Usage
+-----
+
+See the help file located in the doc directory.
 
 Notice
 ------
