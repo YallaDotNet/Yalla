@@ -47,20 +47,11 @@
     <Compile Include="..\Portable\CallerInfoExtensions.cs">
       <Link>CallerInfoExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Portable\DefaultFormatter.cs">
-      <Link>DefaultFormatter.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\FormatterBase.cs">
-      <Link>FormatterBase.cs</Link>
-    </Compile>
     <Compile Include="..\Portable\LogFactory.cs">
       <Link>LogFactory.cs</Link>
     </Compile>
     <Compile Include="..\Portable\LogManager.cs">
       <Link>LogManager.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\NoOpLogger.cs">
-      <Link>NoOpLogger.cs</Link>
     </Compile>
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="..\Net45\DebuggerLogger.cs">

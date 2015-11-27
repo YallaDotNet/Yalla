@@ -40,12 +40,6 @@
     <AssemblyOriginatorKeyFile>..\Portable\Properties\Yalla.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\Portable\DefaultFormatter.cs">
-      <Link>DefaultFormatter.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\FormatterBase.cs">
-      <Link>FormatterBase.cs</Link>
-    </Compile>
     <Compile Include="..\Portable\ILoggerCache.cs">
       <Link>ILoggerCache.cs</Link>
     </Compile>
@@ -60,9 +54,6 @@
     </Compile>
     <Compile Include="..\Portable\LogManager.cs">
       <Link>LogManager.cs</Link>
-    </Compile>
-    <Compile Include="..\Portable\NoOpLogger.cs">
-      <Link>NoOpLogger.cs</Link>
     </Compile>
     <Compile Include="..\Portable\SystemConfigurationSource.cs">
       <Link>SystemConfigurationSource.cs</Link>
