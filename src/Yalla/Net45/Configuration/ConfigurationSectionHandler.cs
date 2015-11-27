@@ -42,6 +42,7 @@ namespace Yalla.Configuration
         /// <summary>
         /// Gets or sets the value of the adapter configuration property.
         /// </summary>
+        /// <value>Adapter configuration property.</value>
         [ConfigurationProperty(AdapterPropertyName)]
         public AdapterConfigurationElement Adapter
         {
@@ -52,6 +53,7 @@ namespace Yalla.Configuration
         /// <summary>
         /// Gets or sets the value of the formatter configuration property.
         /// </summary>
+        /// <value>Formatter configuration property.</value>
         [ConfigurationProperty(FormatterPropertyName)]
         public FormatterConfigurationElement Formatter
         {

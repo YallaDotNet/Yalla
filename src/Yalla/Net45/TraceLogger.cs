@@ -50,7 +50,7 @@ namespace Yalla
         /// <summary>
         /// Gets a value indicating whether this logger is enabled.
         /// </summary>
-        /// <value><c>true</c> if this logger is enabled.</value>
+        /// <returns><c>true</c> if this logger is enabled.</returns>
         protected override bool IsEnabled()
         {
             return Trace.Listeners.Count > 0;
@@ -60,6 +60,7 @@ namespace Yalla
         /// Gets the concrete log level.
         /// </summary>
         /// <param name="logLevel">Yalla log level.</param>
+        /// <returns>Trace level.</returns>
         protected override string GetLevel(LogLevel logLevel)
         {
             return logLevel.ToString();
@@ -99,6 +100,7 @@ namespace Yalla
         /// Gets a logger instance by name.
         /// </summary>
         /// <param name="name">The name of the logger.</param>
+        /// <returns>Logger.</returns>
         public override ILogger GetLogger(string name)
         {
             return new TraceLogger(name, Settings);

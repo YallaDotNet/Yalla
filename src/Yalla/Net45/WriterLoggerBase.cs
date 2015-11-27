@@ -40,6 +40,7 @@ namespace Yalla
         /// Gets the concrete log level.
         /// </summary>
         /// <param name="logLevel">Yalla log level.</param>
+        /// <returns>Log level string.</returns>
         protected override string GetLevel(LogLevel logLevel)
         {
             return logLevel.ToString();

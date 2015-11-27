@@ -47,6 +47,7 @@ namespace Yalla
         /// Gets the concrete log level.
         /// </summary>
         /// <param name="logLevel">Yalla log level.</param>
+        /// <returns>Log priority.</returns>
 		protected override LogPriority GetLevel(LogLevel logLevel)
 		{
 			switch (logLevel)

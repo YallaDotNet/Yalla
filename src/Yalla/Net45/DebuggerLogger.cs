@@ -50,7 +50,7 @@ namespace Yalla
         /// <summary>
         /// Gets a value indicating whether this logger is enabled.
         /// </summary>
-        /// <value><c>true</c> if this logger is enabled.</value>
+        /// <returns><c>true</c> if this logger is enabled.</returns>
         protected override bool IsEnabled()
         {
             return Debugger.IsLogging();
@@ -60,6 +60,7 @@ namespace Yalla
         /// Gets the concrete log level.
         /// </summary>
         /// <param name="logLevel">Yalla log level.</param>
+        /// <returns>Debug level.</returns>
         protected override int GetLevel(LogLevel logLevel)
         {
             return (int)logLevel;
