@@ -70,9 +70,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Net" />
     <Reference Include="System.Windows.Browser" />
-    <Reference Include="Yalla.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Yalla.Core\src\Yalla.Core\Portable.Net40\bin\Release\Yalla.Core.dll</HintPath>
+    <Reference Include="Yalla.Core, Version=1.0.5810.184, Culture=neutral, PublicKeyToken=3fe4f27357dd4c58, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Yalla.Core.0.1.0-pre\lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Yalla.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -118,7 +118,9 @@
     <None Include="..\Portable\Properties\Yalla.snk">
       <Link>Properties\Yalla.snk</Link>
     </None>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <ProjectExtensions>

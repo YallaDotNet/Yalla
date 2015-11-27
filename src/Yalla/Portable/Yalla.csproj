@@ -56,12 +56,14 @@
     <Compile Include="LoggerCache.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Yalla.Core">
-      <HintPath>..\..\..\..\Yalla.Core\src\Yalla.Core\Portable\bin\Release\Yalla.Core.dll</HintPath>
-    </Reference>
+    <None Include="packages.config" />
+    <None Include="Properties\Yalla.snk" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Yalla.snk" />
+    <Reference Include="Yalla.Core, Version=1.0.5809.42471, Culture=neutral, PublicKeyToken=3fe4f27357dd4c58, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Yalla.Core.0.1.0-pre\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Yalla.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
