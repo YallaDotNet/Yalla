@@ -22,10 +22,12 @@ Supported Platforms
 * Xamarin.OSX
 * Portable Class Libraries
 
-Documentation
--------------
 
-The latest version is available at <http://yalladotnet.github.io/Yalla>.
+Getting Started
+---------------
+
+The latest documentation is available at <http://yalladotnet.github.io/Yalla>.
+
 
 Notice
 ------
