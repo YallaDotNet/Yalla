@@ -1,24 +1,14 @@
-Yalla
+YALLA
 =====
 
-Yet Another Logging Library Abstraction for .NET
+YALLA is Yet Another Logging Library Abstraction for .NET
 
-Supported Platforms
--------------------
+Getting Started
+---------------
 
-* .NET Framework 4
-* Silverlight 5
-* Windows 8
-* Windows Phone 8.1
-* Windows Phone Silverlight 8
-* Xamarin.Android
-* Xamarin.iOS
-* Portable Class Libraries
+The latest documentation is available at <http://yalladotnet.github.io/Yalla>.
 
-Usage
------
-
-See documentation located in the `doc` directory. The latest version is available at http://yalladotnet.github.io/Yalla/
+A version-specific offline copy is located in packages/Yalla.X.Y.Z/doc/ (replace X.Y.Z with your version number).
 
 Notice
 ------
