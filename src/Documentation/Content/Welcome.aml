@@ -56,7 +56,7 @@
           <alert class="note">
             <para>
               <legacyBold>This is a preliminary release with limited functionality.</legacyBold>
-              .NET Framework 4 (and later), Silverlight 5 and Portable Class Libraries are the only platforms that are currently supported.
+              .NET Framework 4 (or later), Silverlight 5 and Portable Class Libraries are currently the only supported platforms.
             </para>
           </alert>
         </para>
