@@ -1,15 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
-  <Topic id="51971099-5cd4-461f-8e8e-577fd3aab92d" visible="True" isDefault="true" apiParentMode="InsertAfter" title="Welcome to Yalla" tocTitle="Welcome">
+  <Topic id="51971099-5cd4-461f-8e8e-577fd3aab92d" visible="True" isDefault="true" isSelected="true" apiParentMode="InsertAfter" title="Welcome to YALLA" tocTitle="Welcome">
     <HelpKeywords>
       <HelpKeyword index="K" term="Welcome" />
     </HelpKeywords>
   </Topic>
-  <Topic id="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" visible="True" isExpanded="true" title="Version History">
+  <Topic id="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" visible="True" title="Version History">
     <HelpKeywords>
       <HelpKeyword index="K" term="version, history" />
     </HelpKeywords>
-    <Topic id="13ba4577-18ea-452d-ac42-fbd3c5c2144f" visible="True" isSelected="true" title="Version 0.1.2">
+    <Topic id="cf8fbd97-3f79-4c3b-a626-d7545a36d3e4" visible="True" title="Version 0.1.3">
+      <HelpKeywords>
+        <HelpKeyword index="K" term="version,0.1.3" />
+      </HelpKeywords>
+    </Topic>
+    <Topic id="13ba4577-18ea-452d-ac42-fbd3c5c2144f" visible="True" title="Version 0.1.2">
       <HelpKeywords>
         <HelpKeyword index="K" term="version,0.1.2" />
       </HelpKeywords>
