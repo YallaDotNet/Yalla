@@ -28,8 +28,8 @@
     </TransformComponentArguments>
     <DocumentationSources>
       <DocumentationSource sourceFile="..\Yalla\Net45\Yalla.Net45.csproj" xmlns="" />
-      <DocumentationSource sourceFile="..\packages\Yalla.Core.0.1.0-pre\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Yalla.Core.xml" />
-      <DocumentationSource sourceFile="..\packages\Yalla.Core.0.1.0-pre\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Yalla.Core.dll" />
+      <DocumentationSource sourceFile="..\Yalla\Net45\bin\Release\Yalla.Core.xml" />
+      <DocumentationSource sourceFile="..\Yalla\Net45\bin\Release\Yalla.Core.dll" />
     </DocumentationSources>
     <HelpFileVersion>0.1.0</HelpFileVersion>
     <MaximumGroupParts>2</MaximumGroupParts>
