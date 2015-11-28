@@ -73,19 +73,19 @@
             <listItem>
               <para>
                 <newTerm>Application Code Input:</newTerm>
-                Your application code either requires the addition of logging functionality, or has logging functionality that requires modification.
+                Your application code either requires the addition of logging functionality, or offers logging functionality that requires modification.
               </para>
             </listItem>
             <listItem>
               <para>
                 <newTerm>Library Code Input:</newTerm>
-                Your library code either requires the addition of logging functionality, or has logging functionality that requires modification.
+                Your library code either requires the addition of logging functionality, or offers logging functionality that requires modification.
               </para>
             </listItem>
             <listItem>
               <para>
                 <newTerm>Platform Facility Output:</newTerm>
-                Your application or library code requires its logging functionality to use one or more platform-specific output facilities.
+                Your application or library code requires logging functionality with one or more platform-specific facility outputs.
               </para>
             </listItem>
           </list>
@@ -122,7 +122,7 @@
           If you haven't already, install the
           <externalLink>
             <linkUri>https://www.nuget.org/packages/Yalla</linkUri>
-            <linkText>YALLA NuGet package</linkText>
+            <linkText>Yalla NuGet package</linkText>
           </externalLink>.
           The current version is <link xlink:href="cf8fbd97-3f79-4c3b-a626-d7545a36d3e4" />.
         </para>

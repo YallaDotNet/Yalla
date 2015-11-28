@@ -84,7 +84,7 @@
     </None>
     <Image Include="media\Yalla.png">
       <ImageId>Yalla</ImageId>
-      <AlternateText>Architecture</AlternateText>
+      <AlternateText>Deployment diagram</AlternateText>
     </Image>
     <None Include="Content\License.aml" />
     <None Include="Content\VersionHistory\0.1.1.aml" />
