@@ -1,41 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <topic id="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" revisionNumber="1">
-	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
-		<introduction>
-			<para>The topics in this section describe the various changes made to Yalla over the life of the project.</para>
-		</introduction>
+  <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>The topics in this section describe the various changes made to YALLA over the life of the project.</para>
+    </introduction>
 
-		<section>
-			<title>Version History</title>
-			<content>
-				<para>Select a version below to see a description of its changes.</para>
+    <section>
+      <title>Version History</title>
+      <content>
+        <para>Select a version below to see a description of its changes.</para>
 
-        <definitionTable>
+        <sections>
+          <section>
+            <title>
+              <link xlink:href="cf8fbd97-3f79-4c3b-a626-d7545a36d3e4" />
+            </title>
+            <content>
+              <list class="bullet">
+                <listItem>Fixed README.txt</listItem>
+                <listItem>Expanded documentation</listItem>
+              </list>
+            </content>
+          </section>
 
-          <definedTerm>
-            <link xlink:href="cf8fbd97-3f79-4c3b-a626-d7545a36d3e4" />
-          </definedTerm>
-          <definition>Fixed README.txt</definition>
-          <definition>Expanded documentation</definition>
-          
-          <definedTerm>
-            <link xlink:href="13ba4577-18ea-452d-ac42-fbd3c5c2144f" />
-          </definedTerm>
-          <definition>Updated Microsoft.Bcl to 1.1.10</definition>
+          <section>
+            <title>
+              <link xlink:href="13ba4577-18ea-452d-ac42-fbd3c5c2144f" />
+            </title>
+            <content>
+              <list class="bullet">
+                <listItem>Updated Microsoft.Bcl to 1.1.10</listItem>
+              </list>
+            </content>
+          </section>
 
-          <definedTerm>
-            <link xlink:href="f85ce9f9-bcce-4f8d-bcf3-b6b5545457cd" />
-          </definedTerm>
-          <definition>Initial (pre)release</definition>
-          
-        </definitionTable>
+          <section>
+            <title>
+              <link xlink:href="f85ce9f9-bcce-4f8d-bcf3-b6b5545457cd" />
+            </title>
+            <content>
+              <list class="bullet">
+                <listItem>Initial (pre)release</listItem>
+              </list>
+            </content>
+          </section>
 
-			</content>
-		</section>
+        </sections>
 
-		<relatedTopics>
-			<link xlink:href="51971099-5cd4-461f-8e8e-577fd3aab92d" />
-		</relatedTopics>
+      </content>
+    </section>
 
-	</developerConceptualDocument>
+    <relatedTopics>
+      <link xlink:href="51971099-5cd4-461f-8e8e-577fd3aab92d" />
+    </relatedTopics>
+
+  </developerConceptualDocument>
 </topic>
