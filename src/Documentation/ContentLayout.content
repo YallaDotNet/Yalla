@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
-  <Topic id="51971099-5cd4-461f-8e8e-577fd3aab92d" visible="True" isDefault="true" isSelected="true" apiParentMode="InsertAfter" title="Welcome to Yalla" tocTitle="Welcome">
+  <Topic id="51971099-5cd4-461f-8e8e-577fd3aab92d" visible="True" isDefault="true" apiParentMode="InsertAfter" title="Welcome to Yalla" tocTitle="Welcome">
     <HelpKeywords>
       <HelpKeyword index="K" term="Welcome" />
     </HelpKeywords>
@@ -9,9 +9,9 @@
     <HelpKeywords>
       <HelpKeyword index="K" term="version, history" />
     </HelpKeywords>
-    <Topic id="f85ce9f9-bcce-4f8d-bcf3-b6b5545457cd" visible="True" title="Version 0.1.0">
+    <Topic id="f85ce9f9-bcce-4f8d-bcf3-b6b5545457cd" visible="True" isSelected="true" title="Version 0.1.1">
       <HelpKeywords>
-        <HelpKeyword index="K" term="version, 0.1.0" />
+        <HelpKeyword index="K" term="version, 0.1.1" />
       </HelpKeywords>
     </Topic>
   </Topic>
