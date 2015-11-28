@@ -10,6 +10,12 @@
             <image xlink:href="Yalla" />
           </mediaLink>
         </para>
+        <alert class="note">
+          <para>
+            <legacyBold>This is a preliminary release with limited functionality.</legacyBold>
+            Only Application Code and Library Code input and Platform Facility output are currently supported.
+          </para>
+        </alert>
       </content>
     </section>
 
@@ -24,8 +30,15 @@
           <listItem>Windows Phone Silverlight 8</listItem>
           <listItem>Xamarin.Android</listItem>
           <listItem>Xamarin.iOS</listItem>
+          <listItem>Xamarin.OSX</listItem>
           <listItem>Portable Class Libraries</listItem>
         </list>
+        <alert class="note">
+          <para>
+            <legacyBold>This is a preliminary release with limited functionality.</legacyBold>
+            Only .NET Framework 4 (and later), Silverlight 5 and Portable Class Libraries are currently supported.
+          </para>
+        </alert>
       </content>
     </section>
 
