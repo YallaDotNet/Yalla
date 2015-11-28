@@ -1,13 +1,12 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/gdajpbvrddyb91hc)](https://ci.appveyor.com/project/dmitry-shechtman/yalla)
 
-Yalla
+YALLA
 =====
 
-Yalla is Yet Another Logging Library Abstraction for .NET.
+YALLA is Yet Another Logging Library Abstraction for .NET.
 
 
-![Top-level architecture](https://cdn.rawgit.com/YallaDotNet/Yalla/master/Yalla.svg)
-
+![Deployment diagram](https://cdn.rawgit.com/YallaDotNet/Yalla/master/Yalla.svg)
 
 
 Supported Platforms
@@ -20,12 +19,13 @@ Supported Platforms
 * Windows Phone Silverlight 8
 * Xamarin.Android
 * Xamarin.iOS
+* Xamarin.OSX
 * Portable Class Libraries
 
 Documentation
 -------------
 
-The latest version is available at http://yalladotnet.github.io/Yalla/
+The latest version is available at <http://yalladotnet.github.io/Yalla>.
 
 Notice
 ------
