@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="51971099-5cd4-461f-8e8e-577fd3aab92d" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <section>
+      <title>Introduction</title>
+      <content>
+        Yet Another Logging Library Abstraction for .NET.
+      </content>
+    </section>
+
+    <section>
+      <title>Supported Platforms</title>
+      <content>
+        <list class="bullet">
+          <listItem>.NET Framework 4</listItem>
+          <listItem>Silverlight 5</listItem>
+          <listItem>Windows 8</listItem>
+          <listItem>Windows Phone 8.1</listItem>
+          <listItem>Windows Phone Silverlight 8</listItem>
+          <listItem>Xamarin.Android</listItem>
+          <listItem>Xamarin.iOS</listItem>
+          <listItem>Portable Class Libraries</listItem>
+        </list>
+      </content>
+    </section>
+
+    <section>
+      <title>Notice</title>
+      <content>
+        <para>Copyright © Dmitry Shechtman 2015</para>
+        <para>Licensed under the Apache License, Version 2.0 (the "License").</para>
+        <para>
+          You may obtain a copy of the License at
+          <externalLink>
+            <linkText>http://www.apache.org/licenses/LICENSE-2.0</linkText>
+            <linkUri>http://www.apache.org/licenses/LICENSE-2.0</linkUri>
+          </externalLink>
+        </para>
+        <para>
+          Unless required by applicable law or agreed to in writing, software
+          distributed under the License is distributed on an "AS IS" BASIS,
+          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+          See <link xlink:href="835cb0e6-3fac-4aac-ace3-db119c394b4b">the License</link> for the specific language governing permissions and
+          limitations under the License.
+        </para>
+      </content>
+    </section>
+
+    <relatedTopics>
+			<link xlink:href="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" />
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>

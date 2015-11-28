@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topics>
+  <Topic id="51971099-5cd4-461f-8e8e-577fd3aab92d" visible="True" isDefault="true" isSelected="true" apiParentMode="InsertAfter" title="Welcome to Yalla" tocTitle="Welcome">
+    <HelpKeywords>
+      <HelpKeyword index="K" term="Welcome" />
+    </HelpKeywords>
+  </Topic>
+  <Topic id="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" visible="True" isExpanded="true" title="Version History">
+    <HelpKeywords>
+      <HelpKeyword index="K" term="version, history" />
+    </HelpKeywords>
+    <Topic id="f85ce9f9-bcce-4f8d-bcf3-b6b5545457cd" visible="True" title="Version 0.1.0">
+      <HelpKeywords>
+        <HelpKeyword index="K" term="version, 0.1.0" />
+      </HelpKeywords>
+    </Topic>
+  </Topic>
+  <Topic id="835cb0e6-3fac-4aac-ace3-db119c394b4b" visible="True" title="Apache License, Version 2.0" tocTitle="License" />
+</Topics>

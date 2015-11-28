@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<introduction>
+			<para>The topics in this section describe the various changes made to Yalla over the life of the project.</para>
+		</introduction>
+
+		<section>
+			<title>Version History</title>
+			<content>
+				<para>Select a version below to see a description of its changes.</para>
+
+        <definitionTable>
+          <definedTerm>
+            <link xlink:href="f85ce9f9-bcce-4f8d-bcf3-b6b5545457cd" />
+          </definedTerm>
+          <definition>Initial (pre)release.</definition>
+        </definitionTable>
+
+			</content>
+		</section>
+
+		<relatedTopics>
+			<link xlink:href="51971099-5cd4-461f-8e8e-577fd3aab92d" />
+		</relatedTopics>
+
+	</developerConceptualDocument>
+</topic>
