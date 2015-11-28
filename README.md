@@ -20,7 +20,7 @@ Supported Platforms
 Usage
 -----
 
-See the help file located in the doc directory.
+See documentation located in the `doc` directory. The latest version is available at http://yalladotnet.github.io/Yalla/
 
 Notice
 ------
