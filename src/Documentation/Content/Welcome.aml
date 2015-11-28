@@ -4,7 +4,12 @@
     <section>
       <title>Introduction</title>
       <content>
-        Yet Another Logging Library Abstraction for .NET.
+        <para>YALLA is Yet Another Logging Library Abstraction for .NET.</para>
+        <para>
+          <mediaLink>
+            <image xlink:href="Yalla" />
+          </mediaLink>
+        </para>
       </content>
     </section>
 

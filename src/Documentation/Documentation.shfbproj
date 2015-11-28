@@ -77,6 +77,15 @@
     <Folder Include="media" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\Yalla.svg">
+      <Link>media\Yalla.svg</Link>
+      <ImageId>Yalla</ImageId>
+      <AlternateText>Top-level architecture</AlternateText>
+    </None>
+    <Image Include="media\Yalla.png">
+      <ImageId>Yalla</ImageId>
+      <AlternateText>Architecture</AlternateText>
+    </Image>
     <None Include="Content\License.aml" />
     <None Include="Content\VersionHistory\0.1.1.aml" />
     <None Include="Content\VersionHistory\0.1.2.aml" />
