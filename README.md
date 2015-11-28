@@ -3,7 +3,12 @@
 Yalla
 =====
 
-Yet Another Logging Library Abstraction for .NET
+Yalla is Yet Another Logging Library Abstraction for .NET.
+
+
+![Top-level architecture](https://cdn.rawgit.com/YallaDotNet/Yalla/master/Yalla.svg)
+
+
 
 Supported Platforms
 -------------------
@@ -17,15 +22,15 @@ Supported Platforms
 * Xamarin.iOS
 * Portable Class Libraries
 
-Usage
------
+Documentation
+-------------
 
-See documentation located in the `doc` directory. The latest version is available at http://yalladotnet.github.io/Yalla/
+The latest version is available at http://yalladotnet.github.io/Yalla/
 
 Notice
 ------
 
-   Copyright © Dmitry Shechtman 2015
+   Copyright Â© Dmitry Shechtman 2015
 
    Licensed under the Apache License, Version 2.0 (the "License").
 
