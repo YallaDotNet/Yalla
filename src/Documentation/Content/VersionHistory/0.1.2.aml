@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="13ba4577-18ea-452d-ac42-fbd3c5c2144f" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <introduction>
+      <para>
+        Version 0.1.2 was released on November 28 2015.
+      </para>
+    </introduction>
+
+    <section>
+      <title>Changes in This Release</title>
+      <content>
+
+        <list class="bullet">
+          <listItem>
+            <para>Updated Microsoft.Bcl to 1.1.10.</para>
+          </listItem>
+        </list>
+
+      </content>
+    </section>
+
+    <relatedTopics>
+      <link xlink:href="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" />
+    </relatedTopics>
+
+  </developerConceptualDocument>
+</topic>

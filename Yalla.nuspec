@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Yalla</id>
-    <version>0.1.1-pre</version>
+    <version>0.1.2-pre</version>
     <title>Yalla</title>
     <authors>Dmitry Shechtman</authors>
     <owners>Dmitry Shechtman</owners>
@@ -21,7 +21,7 @@
       * Xamarin.iOS
       * Portable Class Libraries
     </description>
-    <releaseNotes>Initial (pre)release.</releaseNotes>
+    <releaseNotes>Updated Microsoft.Bcl to 1.1.10.</releaseNotes>
     <language>en-US</language>
     <projectUrl>http://yalladotnet.github.io/Yalla/</projectUrl>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -29,7 +29,7 @@
     <copyright>Copyright © Dmitry Shechtman 2014-2015</copyright>
     <tags>portable pcl log logger logging library abstraction Yalla Yalla.NET</tags>
     <dependencies>
-      <dependency id="Yalla.Core" version="0.1.1-pre" />
+      <dependency id="Yalla.Core" version="0.1.2-pre" />
     </dependencies>
   </metadata>
   <files>

@@ -31,7 +31,7 @@
       <DocumentationSource sourceFile="..\Yalla\Net45\bin\Release\Yalla.Core.xml" />
       <DocumentationSource sourceFile="..\Yalla\Net45\bin\Release\Yalla.Core.dll" />
     </DocumentationSources>
-    <HelpFileVersion>0.1.0</HelpFileVersion>
+    <HelpFileVersion>0.1.2</HelpFileVersion>
     <MaximumGroupParts>2</MaximumGroupParts>
     <NamespaceGrouping>False</NamespaceGrouping>
     <SyntaxFilters>Standard</SyntaxFilters>
@@ -79,6 +79,7 @@
   <ItemGroup>
     <None Include="Content\License.aml" />
     <None Include="Content\VersionHistory\0.1.1.aml" />
+    <None Include="Content\VersionHistory\0.1.2.aml" />
     <None Include="Content\VersionHistory\VersionHistory.aml" />
     <None Include="Content\Welcome.aml" />
   </ItemGroup>
