@@ -6,8 +6,8 @@ namespace Yalla
     /// <summary>
     /// Logger cache.
     /// </summary>
-    /// <typeparam name="TKey">Key type.</typeparam>
-    /// <typeparam name="TLogger">Logger type.</typeparam>
+    /// <typeparam name="TKey">The type of the key.</typeparam>
+    /// <typeparam name="TLogger">The type of the logger.</typeparam>
     public sealed partial class LoggerCache<TKey, TLogger> : ILoggerCache<TKey, TLogger>
         where TLogger : class
     {

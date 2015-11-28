@@ -3,7 +3,7 @@
 namespace Yalla
 {
     /// <summary>
-    /// Logger cache.
+    /// Logger cache interface.
     /// </summary>
     /// <typeparam name="TKey">The type of the key.</typeparam>
     /// <typeparam name="TLogger">The type of the logger.</typeparam>
