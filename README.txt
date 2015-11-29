@@ -1,7 +1,7 @@
-YALLA
-=====
+YALLA.NET
+=========
 
-YALLA is Yet Another Logging Library Abstraction for .NET
+YALLA.NET is Yet Another Logging Library Abstraction for .NET.
 
 
 Getting Started

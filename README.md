@@ -1,9 +1,9 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/gdajpbvrddyb91hc)](https://ci.appveyor.com/project/dmitry-shechtman/yalla)
 
-YALLA
-=====
+YALLA.NET
+=========
 
-YALLA is Yet Another Logging Library Abstraction for .NET.
+YALLA.NET is Yet Another Logging Library Abstraction for .NET.
 
 
 ![Deployment diagram](https://cdn.rawgit.com/YallaDotNet/Yalla/master/Yalla.svg)

@@ -9,7 +9,7 @@ using System;
 [assembly: AssemblyDescription("Yet Another Logging Library Abstraction for .NET")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Dmitry Shechtman")]
-[assembly: AssemblyProduct("Yalla")]
+[assembly: AssemblyProduct("YALLA.NET")]
 [assembly: AssemblyCopyright("Copyright © Dmitry Shechtman 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

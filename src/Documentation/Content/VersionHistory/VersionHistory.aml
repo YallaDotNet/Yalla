@@ -2,7 +2,7 @@
 <topic id="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" revisionNumber="1">
   <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
     <introduction>
-      <para>The topics in this section describe the various changes made to YALLA over the life of the project.</para>
+      <para>The topics in this section describe the various changes made to YALLA.NET over the life of the project.</para>
     </introduction>
 
     <section>
@@ -11,6 +11,18 @@
         <para>Select a version below to see a description of its changes.</para>
 
         <sections>
+
+          <section>
+            <title>
+              <link xlink:href="92c8c7a2-7441-4bd0-a60a-bc39c8ecc061" />
+            </title>
+            <content>
+              <list class="bullet">
+                <listItem>A slight rebranding</listItem>
+              </list>
+            </content>
+          </section>
+
           <section>
             <title>
               <link xlink:href="cf8fbd97-3f79-4c3b-a626-d7545a36d3e4" />

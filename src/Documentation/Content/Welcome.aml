@@ -4,12 +4,22 @@
     <section>
       <title>Introduction</title>
       <content>
-        <para>YALLA is Yet Another Logging Library Abstraction for .NET.</para>
+        <para>YALLA.NET is Yet Another Logging Library Abstraction for .NET.</para>
         <para>
           <mediaLink>
             <image xlink:href="Yalla" placement="center" />
             <caption lead="Figure 1" placement="after">Deployment diagram</caption>
           </mediaLink>
+        </para>
+        <para>
+          <alert class="note">
+            <legacyBold>This is the YALLA.NET documentation.</legacyBold>
+            For the node.js library please refer to
+            <externalLink>
+              <linkUri>https://github.com/kessler/node-yalla</linkUri>
+              <linkText>https://github.com/kessler/node-yalla</linkText>
+            </externalLink>.
+          </alert>
         </para>
       </content>
     </section>
@@ -51,8 +61,6 @@
             <listItem>Portable Class Libraries</listItem>
             
           </list>
-        </para>
-        <para>
           <alert class="note">
             <para>
               <legacyBold>This is a preliminary release with limited functionality.</legacyBold>
@@ -68,7 +76,7 @@
       <content>
 
         <para>
-          As shown in Figure 1 above, YALLA supports a variety of use cases, which include the following:
+          As shown in Figure 1 above, YALLA.NET supports a variety of use cases, which include the following:
           <list class="ordered">
             <listItem>
               <para>
@@ -89,9 +97,6 @@
               </para>
             </listItem>
           </list>
-        </para>
-
-        <para>
           <alert class="note">
             <para>
               <legacyBold>This is a preliminary release with limited functionality.</legacyBold>
@@ -105,26 +110,26 @@
           You only need to add the
           <externalLink>
             <linkUri>http://yalladotnet.github.io/Yalla.Core</linkUri>
-            <linkText>YALLA Core Library</linkText>
+            <linkText>YALLA.NET Core</linkText>
           </externalLink>
           as a dependency to your project in order to apply the
           <legacyItalic>Application Code Input</legacyItalic>
           use case or the
           <legacyItalic>Library Code Input</legacyItalic>
           use case.
-          The YALLA Core Library documentation contains installation instructions and relevant API reference.
+          The YALLA.NET Core documentation contains installation instructions and relevant API reference.
         </para>
         
         <para>
-          In order for your application to produce YALLA log(s),
-          you need to add YALLA as a dependency to the main project(s)
-          (The YALLA Core Library dependency will be added for you.).
+          In order for your application to produce YALLA.NET log(s),
+          you need to add YALLA.NET as a dependency to the main project(s)
+          (The YALLA.NET Core dependency will be added for you.).
           If you haven't already, install the
           <externalLink>
             <linkUri>https://www.nuget.org/packages/Yalla</linkUri>
             <linkText>Yalla NuGet package</linkText>
           </externalLink>.
-          The current version is <link xlink:href="cf8fbd97-3f79-4c3b-a626-d7545a36d3e4" />.
+          The current version is <link xlink:href="92c8c7a2-7441-4bd0-a60a-bc39c8ecc061" />.
         </para>
 
         <para>
@@ -139,7 +144,7 @@
           <codeEntityReference>M:Yalla.LogManager.Shutdown</codeEntityReference>.
         </para>
 
-        <para>Detailed YALLA API information may be found in the Reference section.</para>
+        <para>Detailed YALLA.NET API information may be found in the Reference section.</para>
         
       </content>
     </section>
@@ -173,5 +178,6 @@
       </externalLink>
 			<link xlink:href="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" />
 		</relatedTopics>
+  
 	</developerConceptualDocument>
 </topic>
