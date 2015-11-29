@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Yalla</id>
-    <version>0.1.2-pre</version>
-    <title>Yalla</title>
+    <version>0.1.3-pre</version>
+    <title>YALLA</title>
     <authors>Dmitry Shechtman</authors>
     <owners>Dmitry Shechtman</owners>
     <summary>Yet Another Logging Library Abstraction for .NET</summary>
     <description>
-      Yet Another Logging Library Abstraction for .NET.
+      YALLA is Yet Another Logging Library Abstraction for .NET.
 
       Supported Platforms:
 
@@ -19,17 +19,19 @@
       * Windows Phone Silverlight 8
       * Xamarin.Android
       * Xamarin.iOS
+      * Xamarin.OSX
       * Portable Class Libraries
     </description>
-    <releaseNotes>Updated Microsoft.Bcl to 1.1.10.</releaseNotes>
+    <releaseNotes>Fixed README.txt
+Expanded documentation</releaseNotes>
     <language>en-US</language>
-    <projectUrl>http://yalladotnet.github.io/Yalla/</projectUrl>
+    <projectUrl>http://yalladotnet.github.io/Yalla</projectUrl>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright © Dmitry Shechtman 2014-2015</copyright>
-    <tags>portable pcl log logger logging library abstraction Yalla Yalla.NET</tags>
+    <tags>portable pcl log logger logging library abstraction YALLA YALLA.NET YallaDotNet Yalla</tags>
     <dependencies>
-      <dependency id="Yalla.Core" version="0.1.2-pre" />
+      <dependency id="Yalla.Core" version="0.1.3-pre" />
     </dependencies>
   </metadata>
   <files>
