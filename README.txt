@@ -9,8 +9,6 @@ Getting Started
 
 The latest documentation is available at <http://yalladotnet.github.io/Yalla>.
 
-A version-specific offline copy is located in packages/Yalla.X.Y.Z/doc/ (replace X.Y.Z with your version number).
-
 
 Notice
 ------
