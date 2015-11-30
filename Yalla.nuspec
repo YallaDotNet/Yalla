@@ -42,8 +42,8 @@ Consolidated documentation</releaseNotes>
     <file src="src\Yalla\Portable\bin\Release\Yalla.xml" target="lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10" />
     <file src="src\Yalla\Sl5\bin\Release\Yalla.dll" target="lib\sl50" />
     <file src="src\Yalla\Sl5\bin\Release\Yalla.xml" target="lib\sl50" />
-    <file src="src\Yalla\Net40\bin\Release\Yalla.dll" target="lib\net40" />
-    <file src="src\Yalla\Net40\bin\Release\Yalla.xml" target="lib\net40" />
+    <file src="src\Yalla\Net40\bin\Release\Yalla.dll" target="lib\net40-client" />
+    <file src="src\Yalla\Net40\bin\Release\Yalla.xml" target="lib\net40-client" />
     <file src="src\Yalla\Net45\bin\Release\Yalla.dll" target="lib\net45" />
     <file src="src\Yalla\Net45\bin\Release\Yalla.xml" target="lib\net45" />
     <file src="README.txt" />
