@@ -22,7 +22,8 @@
       * Xamarin.OSX
       * Portable Class Libraries
     </description>
-    <releaseNotes>Added COM visibility
+    <releaseNotes>[BREAKING] Reordered parameters to match NLog 4.0
+Added COM visibility
 Consolidated documentation</releaseNotes>
     <language>en-US</language>
     <projectUrl>http://yalladotnet.github.io/Yalla</projectUrl>

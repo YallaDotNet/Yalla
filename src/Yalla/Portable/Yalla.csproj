@@ -60,14 +60,14 @@
     <Compile Include="LoggerCache.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <None Include="..\..\Properties\Yalla.snk">
       <Link>Properties\Yalla.snk</Link>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Yalla.Core, Version=1.0.5811.37062, Culture=neutral, PublicKeyToken=3fe4f27357dd4c58, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Yalla.Core.0.2.0-pre\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Yalla.Core.dll</HintPath>
+    <Reference Include="Yalla.Core, Version=1.0.5813.1925, Culture=neutral, PublicKeyToken=3fe4f27357dd4c58, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Yalla.Core.0.3.0-pre\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Yalla.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
