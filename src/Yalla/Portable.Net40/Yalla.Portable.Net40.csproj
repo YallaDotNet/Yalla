@@ -38,7 +38,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>..\Portable\Properties\Yalla.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\..\Properties\Yalla.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\Portable\Configuration\NamespaceDoc.cs">
@@ -67,7 +67,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Portable\Properties\Yalla.snk">
+    <None Include="..\..\Properties\Yalla.snk">
       <Link>Properties\Yalla.snk</Link>
     </None>
     <None Include="app.config" />

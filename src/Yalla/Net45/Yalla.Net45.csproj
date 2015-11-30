@@ -37,7 +37,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>..\Portable\Properties\Yalla.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\..\Properties\Yalla.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -104,7 +104,7 @@
     <Compile Include="LoggerCache_Concurrent.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Portable\Properties\Yalla.snk">
+    <None Include="..\..\Properties\Yalla.snk">
       <Link>Properties\Yalla.snk</Link>
     </None>
     <None Include="packages.config" />

@@ -41,7 +41,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>Properties\Yalla.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\..\Properties\Yalla.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CallerInfoExtensions.cs" />
@@ -58,7 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Properties\Yalla.snk" />
+    <None Include="..\..\Properties\Yalla.snk">
+      <Link>Properties\Yalla.snk</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Yalla.Core, Version=1.0.5811.37062, Culture=neutral, PublicKeyToken=3fe4f27357dd4c58, processorArchitecture=MSIL">
