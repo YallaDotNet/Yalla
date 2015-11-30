@@ -63,7 +63,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="Yalla.Core, Version=1.0.5813.1925, Culture=neutral, PublicKeyToken=3fe4f27357dd4c58, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Yalla.Core.0.3.0-pre\lib\net40\Yalla.Core.dll</HintPath>
+      <HintPath>..\..\packages\Yalla.Core.0.3.0-pre\lib\net40-client\Yalla.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
