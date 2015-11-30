@@ -6,7 +6,7 @@ YALLA.NET
 YALLA.NET is Yet Another Logging Library Abstraction for .NET.
 
 
-![Deployment diagram](https://cdn.rawgit.com/YallaDotNet/Yalla/master/Yalla.svg)
+![Deployment diagram](https://rawgit.com/YallaDotNet/Yalla/master/Yalla.svg)
 
 
 Supported Platforms
