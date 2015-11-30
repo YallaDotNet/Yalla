@@ -58,6 +58,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\Properties\YallaAssemblyInfo.cs">
+      <Link>Properties\YallaAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="..\Portable\CallerInfoExtensions.cs">
       <Link>CallerInfoExtensions.cs</Link>
     </Compile>

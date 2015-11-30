@@ -68,6 +68,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\Properties\YallaAssemblyInfo.cs">
+      <Link>Properties\YallaAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="..\Net45\Configuration\ConfigurationSectionHandler.cs">
       <Link>Configuration\ConfigurationSectionHandler.cs</Link>
     </Compile>

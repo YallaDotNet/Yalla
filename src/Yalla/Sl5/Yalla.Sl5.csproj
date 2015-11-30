@@ -80,6 +80,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\Properties\YallaAssemblyInfo.cs">
+      <Link>Properties\YallaAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="..\Net45\ConsoleLogger.cs">
       <Link>ConsoleLogger.cs</Link>
     </Compile>
