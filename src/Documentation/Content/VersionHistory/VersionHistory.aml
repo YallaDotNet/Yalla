@@ -14,6 +14,25 @@
 
           <section>
             <title>
+              <link xlink:href="d8de1249-73af-4b73-88e7-52dd721bd6a9" />
+            </title>
+            <content>
+              <list class="bullet">
+                <listItem>
+                  [BREAKING] Reordered parameters to match NLog 4.0
+                </listItem>
+                <listItem>
+                  Added COM visibility
+                </listItem>
+                <listItem>
+                  Consolidated documentation
+                </listItem>
+              </list>
+            </content>
+          </section>
+
+          <section>
+            <title>
               <link xlink:href="92c8c7a2-7441-4bd0-a60a-bc39c8ecc061" />
             </title>
             <content>
@@ -63,6 +82,10 @@
     </section>
 
     <relatedTopics>
+      <externalLink>
+        <linkUri>https://www.nuget.org/packages/Yalla/</linkUri>
+        <linkText>YALLA.NET on NuGet Gallery</linkText>
+      </externalLink>
       <link xlink:href="51971099-5cd4-461f-8e8e-577fd3aab92d" />
     </relatedTopics>
 

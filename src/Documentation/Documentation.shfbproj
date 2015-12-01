@@ -13,7 +13,7 @@
     <RootNamespace>Documentation</RootNamespace>
     <Name>Documentation</Name>
     <!-- SHFB properties -->
-    <FrameworkVersion>.NET Framework 4.5</FrameworkVersion>
+    <FrameworkVersion>.NET Portable Library 4.0 (Legacy)</FrameworkVersion>
     <OutputPath>..\..\doc\</OutputPath>
     <HtmlHelpName>Yalla</HtmlHelpName>
     <Language>en-US</Language>
@@ -27,11 +27,12 @@
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
     <DocumentationSources>
-      <DocumentationSource sourceFile="..\Yalla\Net45\Yalla.Net45.csproj" xmlns="" />
       <DocumentationSource sourceFile="..\Yalla\Net45\bin\Release\Yalla.Core.xml" />
       <DocumentationSource sourceFile="..\Yalla\Net45\bin\Release\Yalla.Core.dll" />
+      <DocumentationSource sourceFile="..\..\..\Yalla.GoogleApis\src\Yalla.GoogleApis\Yalla.GoogleApis.csproj" />
+      <DocumentationSource sourceFile="..\Yalla\Portable.Net40\Yalla.Portable.Net40.csproj" />
     </DocumentationSources>
-    <HelpFileVersion>0.2.0</HelpFileVersion>
+    <HelpFileVersion>0.3.0</HelpFileVersion>
     <MaximumGroupParts>2</MaximumGroupParts>
     <NamespaceGrouping>False</NamespaceGrouping>
     <SyntaxFilters>Standard</SyntaxFilters>
@@ -72,6 +73,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Content" />
+    <Folder Include="Content\HowTo" />
     <Folder Include="Content\VersionHistory" />
     <Folder Include="icons" />
     <Folder Include="media" />
@@ -86,11 +88,16 @@
       <ImageId>Yalla</ImageId>
       <AlternateText>Deployment diagram</AlternateText>
     </Image>
+    <None Include="Content\HowTo\HowTo-GoogleApis.aml" />
+    <None Include="Content\HowTo\HowTo-Install-Core.aml" />
+    <None Include="Content\HowTo\HowTo-Install.aml" />
+    <None Include="Content\HowTo\HowTo.aml" />
     <None Include="Content\License.aml" />
     <None Include="Content\VersionHistory\0.1.1.aml" />
     <None Include="Content\VersionHistory\0.1.2.aml" />
     <None Include="Content\VersionHistory\0.1.3.aml" />
     <None Include="Content\VersionHistory\0.2.0.aml" />
+    <None Include="Content\VersionHistory\0.3.0.aml" />
     <None Include="Content\VersionHistory\VersionHistory.aml" />
     <None Include="Content\Welcome.aml" />
   </ItemGroup>

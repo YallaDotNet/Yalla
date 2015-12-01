@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <topic id="51971099-5cd4-461f-8e8e-577fd3aab92d" revisionNumber="1">
 	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <section>
+    
+    <introduction>
+      <autoOutline lead="none" excludeRelatedTopics="true" />
+    </introduction>
+
+    <section address="Introduction">
       <title>Introduction</title>
       <content>
-        <para>YALLA.NET is Yet Another Logging Library Abstraction for .NET.</para>
+        <para>
+          YALLA.NET is Yet Another Logging Library Abstraction for .NET.
+        </para>
         <para>
           <mediaLink>
             <image xlink:href="Yalla" placement="center" />
@@ -14,64 +21,51 @@
         <para>
           <alert class="note">
             <legacyBold>This is the YALLA.NET documentation.</legacyBold>
-            For the node.js library please refer to
+            For the (unrelated) node.js library please refer to
             <externalLink>
               <linkUri>https://github.com/kessler/node-yalla</linkUri>
-              <linkText>https://github.com/kessler/node-yalla</linkText>
+              <linkText>node-yalla</linkText>
             </externalLink>.
           </alert>
         </para>
       </content>
     </section>
 
-    <section>
-      <title>Supported Platforms</title>
+    <section address="Features">
+      <title>Features</title>
       <content>
         <para>
+          YALLA.NET offers the following features:
           <list class="bullet">
-            
-            <listItem>.NET Framework 4</listItem>
-            
-            <listItem>Silverlight 5</listItem>
-            
             <listItem>
-              Windows 8 <legacyItalic>(WIP)</legacyItalic>
+              Reach-yet-intuitive APIs
             </listItem>
-            
             <listItem>
-              Windows Phone 8.1 <legacyItalic>(WIP)</legacyItalic>
+              Detailed caller information (file name, member name and line number)
             </listItem>
-
             <listItem>
-              Windows Phone Silverlight 8 <legacyItalic>(WIP)</legacyItalic>
+              <link xlink:href="#Platforms">cross-platform support</link>
             </listItem>
-            
             <listItem>
-              Xamarin.Android <legacyItalic>(WIP)</legacyItalic>
+              A variety of log
+              <link xlink:href="#Sources">sources</link>
+              and
+              <link xlink:href="#Targets">targets</link>
             </listItem>
-            
             <listItem>
-              Xamarin.iOS <legacyItalic>(WIP)</legacyItalic>
+              A variety of
+              <link xlink:href="#Configuration">configuration</link>
+              options
             </listItem>
-            
             <listItem>
-              Xamarin.OSX <legacyItalic>(WIP)</legacyItalic>
+              <link xlink:href="835cb0e6-3fac-4aac-ace3-db119c394b4b" />
             </listItem>
-            
-            <listItem>Portable Class Libraries</listItem>
-            
           </list>
-          <alert class="note">
-            <para>
-              <legacyBold>This is a preliminary release with limited functionality.</legacyBold>
-              .NET Framework 4 (or later), Silverlight 5 and Portable Class Libraries are currently the only supported platforms.
-            </para>
-          </alert>
         </para>
       </content>
     </section>
 
-    <section>
+    <section address="Getting-Started">
       <title>Getting Started</title>
       <content>
 
@@ -80,56 +74,48 @@
           <list class="ordered">
             <listItem>
               <para>
-                <newTerm>Application Code Input:</newTerm>
+                <newTerm>Application Code Source:</newTerm>
                 Your application code either requires the addition of logging functionality, or offers logging functionality that requires modification.
               </para>
             </listItem>
             <listItem>
               <para>
-                <newTerm>Library Code Input:</newTerm>
+                <newTerm>Library Code Source:</newTerm>
                 Your library code either requires the addition of logging functionality, or offers logging functionality that requires modification.
               </para>
             </listItem>
             <listItem>
               <para>
-                <newTerm>Platform Facility Output:</newTerm>
-                Your application or library code requires logging functionality with one or more platform-specific facility outputs.
+                <newTerm>Platform Facility Target:</newTerm>
+                Your application or library code requires logging functionality with one or more platform-specific facilities.
               </para>
             </listItem>
           </list>
           <alert class="note">
             <para>
               <legacyBold>This is a preliminary release with limited functionality.</legacyBold>
-              <legacyItalic>Application Code Input</legacyItalic>, <legacyItalic>Library Code Input</legacyItalic> and <legacyItalic>Platform Facility Output</legacyItalic>
-              are the only use cases that are currently supported.
+              <legacyItalic>Application Code Source</legacyItalic>, <legacyItalic>Library Code Source</legacyItalic> and <legacyItalic>Platform Facility Target</legacyItalic>
+              are currently the only supported use cases.
             </para>
           </alert>
         </para>
-        
+
         <para>
-          You only need to add the
-          <externalLink>
-            <linkUri>http://yalladotnet.github.io/Yalla.Core</linkUri>
-            <linkText>YALLA.NET Core</linkText>
-          </externalLink>
-          as a dependency to your project in order to apply the
-          <legacyItalic>Application Code Input</legacyItalic>
-          use case or the
-          <legacyItalic>Library Code Input</legacyItalic>
-          use case.
-          The YALLA.NET Core documentation contains installation instructions and relevant API reference.
+          In order to start using YALLA.NET in an application/service or a library,
+          you need to add the YALLA.NET Core library as a dependency to your project.
+          If you haven't already,
+          <link xlink:href="3bb04b29-5d26-4640-a81b-f1241196af29">install the Yalla.Core NuGet package</link>
+          .
         </para>
-        
+
         <para>
           In order for your application to produce YALLA.NET log(s),
           you need to add YALLA.NET as a dependency to the main project(s)
           (The YALLA.NET Core dependency will be added for you.).
-          If you haven't already, install the
-          <externalLink>
-            <linkUri>https://www.nuget.org/packages/Yalla</linkUri>
-            <linkText>Yalla NuGet package</linkText>
-          </externalLink>.
-          The current version is <link xlink:href="92c8c7a2-7441-4bd0-a60a-bc39c8ecc061" />.
+          If you haven't already,
+          <link xlink:href="a89f6326-844b-4f46-80e4-cda32f8d165d">install the Yalla NuGet package</link>
+          . The current version is
+          <link xlink:href="d8de1249-73af-4b73-88e7-52dd721bd6a9" />.
         </para>
 
         <para>
@@ -145,11 +131,132 @@
         </para>
 
         <para>Detailed YALLA.NET API information may be found in the Reference section.</para>
-        
+
+      </content>
+    </section>
+
+    <section address="Platforms">
+      <title>Platforms</title>
+      <content>
+        <para>
+          The following platforms are supported:
+          <list class="bullet">
+            <listItem>.NET Framework 4</listItem>
+            <listItem>Silverlight 5</listItem>
+            <listItem>
+              Windows 8 <legacyItalic>(WIP)</legacyItalic>
+            </listItem>
+            <listItem>
+              Windows Phone 8.1 <legacyItalic>(WIP)</legacyItalic>
+            </listItem>
+            <listItem>
+              Windows Phone Silverlight 8 <legacyItalic>(WIP)</legacyItalic>
+            </listItem>
+            <listItem>
+              Xamarin.Android <legacyItalic>(WIP)</legacyItalic>
+            </listItem>
+            <listItem>
+              Xamarin.iOS <legacyItalic>(WIP)</legacyItalic>
+            </listItem>
+            <listItem>
+              Xamarin.OSX <legacyItalic>(WIP)</legacyItalic>
+            </listItem>
+            <listItem>Portable Class Libraries</listItem>
+          </list>
+          <alert class="note">
+            <para>
+              <legacyBold>This is a preliminary release with limited functionality.</legacyBold>
+              .NET Framework 4 (or later), Silverlight 5 and Portable Class Libraries are currently the only supported platforms.
+            </para>
+          </alert>
+        </para>
+      </content>
+    </section>
+
+    <section address="Sources">
+      <title>Sources</title>
+      <content>
+        <para>
+          The following log sources are supported:
+          <list class="bullet">
+            <listItem>Managed code</listItem>
+            <listItem>Native code (through COM interop)</listItem>
+            <listItem>
+              <link xlink:href="b08f195b-50d8-4d0a-9aef-6e8f2f7de152">
+                Google APIs Client
+              </link>
+            </listItem>
+            <listItem>.NET Trace</listItem>
+          </list>
+          <alert class="note">
+            <para>
+              <legacyBold>This is a preliminary release with limited functionality.</legacyBold>
+              Support for new sources is added on a nearly daily basis.
+            </para>
+          </alert>
+        </para>
+      </content>
+    </section>
+
+    <section address="Targets">
+      <title>Targets</title>
+      <content>
+        <para>
+          The following log targets are supported:
+          <list class="bullet">
+            <listItem>Standard output</listItem>
+            <listItem>Error output</listItem>
+            <listItem>Debug output</listItem>
+            <listItem>Trace</listItem>
+            <listItem>
+              Event log <legacyItalic>(WIP)</legacyItalic>
+            </listItem>
+          </list>
+          <alert class="note">
+            <para>
+              <legacyBold>This is a preliminary release with limited functionality.</legacyBold>
+              Support for new targets is added on a nearly daily basis.
+            </para>
+          </alert>
+        </para>
+      </content>
+    </section>
+
+    <section address="Configuration">
+      <title>Configuration</title>
+      <content>
+        The following configuration sources are supported:
+        <para>
+          <list class="bullet">
+            <listItem>
+              Application Configuration XML
+            </listItem>
+            <listItem>
+              Library Configuration XML
+            </listItem>
+            <listItem>
+              Standalone XML
+            </listItem>
+            <listItem>
+              Standalone XAML
+            </listItem>
+            <listItem>
+              JSON <legacyItalic>(WIP)</legacyItalic>
+            </listItem>
+          </list>
+          <alert class="note">
+            <para>
+              <legacyBold>This is a preliminary release with limited functionality.</legacyBold>
+              <legacyItalic>Application Configuration XML</legacyItalic>, <legacyItalic>Library Configuration XML</legacyItalic>,
+              <legacyItalic>Standalone XML</legacyItalic> and <legacyItalic>Standalone XAML</legacyItalic>
+                are currently the only supported configuration sources.
+            </para>
+          </alert>
+        </para>
       </content>
     </section>
     
-    <section>
+    <section address="Notice">
       <title>Notice</title>
       <content>
         <para>Copyright © Dmitry Shechtman 2015</para>
@@ -172,12 +279,13 @@
     </section>
 
     <relatedTopics>
+      <link xlink:href="8b30360a-d84e-45bf-9fba-0f916e0bda94" />
+      <link xlink:href="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" />
       <externalLink>
         <linkUri>https://github.com/YallaDotNet/Yalla</linkUri>
-        <linkText>Source Code</linkText>
+        <linkText>YALLA.NET GitHub repository</linkText>
       </externalLink>
-			<link xlink:href="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" />
-		</relatedTopics>
+    </relatedTopics>
   
 	</developerConceptualDocument>
 </topic>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="b08f195b-50d8-4d0a-9aef-6e8f2f7de152" revisionNumber="1">
+  <developerHowToDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <introduction>
+      <para>
+        In order to use YALLA.NET with the Google APIs Client library,
+        the YALLA.NET Google APIs library must be added as a dependency to the main project,
+        and the Google APIs Client library must be properly configured.
+      </para>
+    </introduction>
+
+    <procedure>
+      <steps class="ordered">
+        <step>
+          <content>
+            <para>Enter the following command into the Package Manager Console:</para>
+            <code language="PowerShell">
+              Install-Package Yalla.GoogleApis
+            </code>
+            <para>If the solution contains multiple projects, the command above should be followed by the project name.</para>
+            <para>
+              Alternatively, you may use the <quoteInline>Manage NuGet Packages</quoteInline> window.
+              If you do, make sure that the package ID is <codeInline>Yalla.GoogleApis</codeInline>.
+            </para>
+            <alert class="note">
+              The primary YALLA.NET library and the YALLA.NET Core library will be installed automatically.
+            </alert>
+            <alert class="warning">
+              <para>The minimum supported Google APIs Client version is 1.9.2.</para>
+            </alert>
+          </content>
+        </step>
+        <step>
+          <content>
+            <para>
+              Add the following call to application startup:
+            </para>
+              <code language="C#">
+                Google.ApplicationContext.RegisterLogger(Yalla.GoogleApis.YallaLogger.Instance);
+              </code>
+            <alert class="note">
+              <para>This call must follow YALLA.NET initialization and precede any Google API service initialization.</para>
+            </alert>
+          </content>
+        </step>
+      </steps>
+    </procedure>
+
+    <relatedTopics>
+      <codeEntityReference>T:Yalla.GoogleApis.YallaLogger</codeEntityReference>
+      <link xlink:href="8b30360a-d84e-45bf-9fba-0f916e0bda94" />
+    </relatedTopics>
+    
+  </developerHowToDocument>
+</topic>

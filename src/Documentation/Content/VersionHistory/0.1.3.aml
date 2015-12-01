@@ -27,6 +27,10 @@
     </section>
 
     <relatedTopics>
+      <externalLink>
+        <linkUri>https://www.nuget.org/packages/Yalla/0.1.3-pre</linkUri>
+        <linkText>This version on NuGet Gallery</linkText>
+      </externalLink>
       <link xlink:href="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" />
     </relatedTopics>
 

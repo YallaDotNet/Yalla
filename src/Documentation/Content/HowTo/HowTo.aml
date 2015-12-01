@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="8b30360a-d84e-45bf-9fba-0f916e0bda94" revisionNumber="1">
+  <developerOrientationDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <summary>
+      <para>This topics in this section detail the steps necessary for applying the various YALLA.NET use cases.</para>
+    </summary>
+
+    <section>
+      <title>YALLA.NET How-Tos</title>
+      <content>
+        <para>
+          Select one of the topics below to learn more about a particular use case.
+        </para>
+        <list class="bullet">
+          <listItem>
+            <para>
+              <link xlink:href="3bb04b29-5d26-4640-a81b-f1241196af29" />
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <link xlink:href="a89f6326-844b-4f46-80e4-cda32f8d165d" />
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <link xlink:href="b08f195b-50d8-4d0a-9aef-6e8f2f7de152" />
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+
+    <relatedTopics>
+      <link xlink:href="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" />
+    </relatedTopics>
+
+  </developerOrientationDocument>
+</topic>

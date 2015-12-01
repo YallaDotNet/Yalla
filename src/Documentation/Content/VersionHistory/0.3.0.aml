@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<topic id="13ba4577-18ea-452d-ac42-fbd3c5c2144f" revisionNumber="1">
+<topic id="d8de1249-73af-4b73-88e7-52dd721bd6a9" revisionNumber="1">
   <developerConceptualDocument
     xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
     xmlns:xlink="http://www.w3.org/1999/xlink">
 
     <introduction>
       <para>
-        Version 0.1.2 was released on November 28 2015.
+        Version 0.3.0 was released on November 30 2015.
       </para>
     </introduction>
 
@@ -15,9 +15,19 @@
       <content>
 
         <list class="bullet">
+          
           <listItem>
-            <para>Updated Microsoft.Bcl to 1.1.10</para>
+            <para>[BREAKING] Reordered parameters to match NLog 4.0</para>
           </listItem>
+
+          <listItem>
+            <para>Added COM visibility</para>
+          </listItem>
+
+          <listItem>
+            <para>Consolidated documentation</para>
+          </listItem>
+
         </list>
 
       </content>
@@ -25,7 +35,7 @@
 
     <relatedTopics>
       <externalLink>
-        <linkUri>https://www.nuget.org/packages/Yalla/0.1.2-pre</linkUri>
+        <linkUri>https://www.nuget.org/packages/Yalla/0.3.0-pre</linkUri>
         <linkText>This version on NuGet Gallery</linkText>
       </externalLink>
       <link xlink:href="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" />
