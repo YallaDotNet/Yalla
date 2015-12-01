@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="3bb04b29-5d26-4640-a81b-f1241196af29" revisionNumber="1">
+  <developerHowToDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <introduction>
+      <para>
+        In order for YALLA.NET to be used for logging in a project,
+        the YALLA.NET Core library must be added as a dependency.
+      </para>
+    </introduction>
+
+    <procedure>
+      <steps class="ordered">
+        <step>
+          <content>
+            <para>Enter the following command into the Package Manager Console:</para>
+            <code language="PowerShell">
+              Install-Package Yalla.Core
+            </code>
+            <para>If the solution contains multiple projects, the command above should be followed by the project name.</para>
+            <para>
+              Alternatively, you may use the <quoteInline>Manage NuGet Packages</quoteInline> window.
+              If you do, make sure that the package ID is <codeInline>Yalla.Core</codeInline>.
+            </para>
+            <alert class="note">
+              In order for YALLA.NET to produce log(s) in an application/service,
+              <link xlink:href="a89f6326-844b-4f46-80e4-cda32f8d165d">the primary YALLA.NET library</link>
+              must be added as a dependency to the main project.
+              If you install the primary YALLA.NET library, the YALLA.NET Core library will be installed automatically.
+            </alert>
+            <alert class="warning">
+              <para>If the target framework of the project is .NET Framework 4, two other packages will be added as dependencies:</para>
+              <list>
+                <listItem>
+                  <codeInline>Microsoft.Bcl.Build</codeInline>
+                </listItem>
+                <listItem>
+                  <codeInline>Microsoft.Bcl</codeInline>
+                </listItem>
+              </list>
+              <para>
+                These packages are required in order for YALLA.NET to consume compiler-generated caller information in the legacy framework.
+                Consider reducing dependencies by updating the project to target .NET Framework 4.5 or higher.
+              </para>
+            </alert>
+          </content>
+        </step>
+      </steps>
+    </procedure>
+
+    <relatedTopics>
+      <link xlink:href="a89f6326-844b-4f46-80e4-cda32f8d165d" />
+      <link xlink:href="8b30360a-d84e-45bf-9fba-0f916e0bda94" />
+    </relatedTopics>
+
+  </developerHowToDocument>
+</topic>
