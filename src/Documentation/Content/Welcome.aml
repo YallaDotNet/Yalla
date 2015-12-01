@@ -38,7 +38,7 @@
           YALLA.NET offers the following features:
           <list class="bullet">
             <listItem>
-              Reach-yet-intuitive APIs
+              Rich-yet-intuitive APIs
             </listItem>
             <listItem>
               Detailed caller information (file name, member name and line number)
@@ -255,6 +255,17 @@
         </para>
       </content>
     </section>
+
+    <section address="Thanks">
+      <title>Thanks</title>
+      <content>
+        <para>
+          <list class="bullet">
+            <listItem>Yaniv Kessler</listItem>
+          </list>
+        </para>
+      </content>
+    </section>
     
     <section address="Notice">
       <title>Notice</title>
@@ -279,11 +290,11 @@
     </section>
 
     <relatedTopics>
-      <link xlink:href="8b30360a-d84e-45bf-9fba-0f916e0bda94" />
+      <link xlink:href="8b30360a-d84e-45bf-9fba-0f916e0bda94" topicType_id="DAC3A6A0-C863-4E5B-8F65-79EFC6A4BA09" />
       <link xlink:href="aad10e72-8d8b-4a07-9f83-b6abc19ece7c" />
       <externalLink>
-        <linkUri>https://github.com/YallaDotNet/Yalla</linkUri>
-        <linkText>YALLA.NET GitHub repository</linkText>
+        <linkUri>https://github.com/YallaDotNet/Yalla/</linkUri>
+        <linkText>YALLA.NET on GitHub</linkText>
       </externalLink>
     </relatedTopics>
   

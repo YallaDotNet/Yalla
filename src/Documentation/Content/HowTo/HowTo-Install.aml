@@ -50,8 +50,15 @@
     </procedure>
 
     <relatedTopics>
-      <link xlink:href="3bb04b29-5d26-4640-a81b-f1241196af29" />
-      <link xlink:href="8b30360a-d84e-45bf-9fba-0f916e0bda94" />
+      <externalLink>
+        <linkUri>https://www.nuget.org/packages/Yalla/</linkUri>
+        <linkText>YALLA.NET on NuGet Gallery</linkText>
+      </externalLink>
+      <externalLink>
+        <linkUri>https://github.com/YallaDotNet/Yalla/</linkUri>
+        <linkText>YALLA.NET on GitHub</linkText>
+      </externalLink>
+      <link xlink:href="8b30360a-d84e-45bf-9fba-0f916e0bda94" topicType_id="DAC3A6A0-C863-4E5B-8F65-79EFC6A4BA09" />
     </relatedTopics>
     
   </developerHowToDocument>

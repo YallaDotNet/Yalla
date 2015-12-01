@@ -51,8 +51,15 @@
     </procedure>
 
     <relatedTopics>
-      <link xlink:href="a89f6326-844b-4f46-80e4-cda32f8d165d" />
-      <link xlink:href="8b30360a-d84e-45bf-9fba-0f916e0bda94" />
+      <externalLink>
+        <linkUri>https://www.nuget.org/packages/Yalla.Core/</linkUri>
+        <linkText>YALLA.NET Core on NuGet Gallery</linkText>
+      </externalLink>
+      <externalLink>
+        <linkUri>https://github.com/YallaDotNet/Yalla.Core/</linkUri>
+        <linkText>YALLA.NET Core on GitHub</linkText>
+      </externalLink>
+      <link xlink:href="8b30360a-d84e-45bf-9fba-0f916e0bda94" topicType_id="DAC3A6A0-C863-4E5B-8F65-79EFC6A4BA09" />
     </relatedTopics>
 
   </developerHowToDocument>

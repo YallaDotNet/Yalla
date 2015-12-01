@@ -14,7 +14,7 @@
     <Name>Documentation</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Portable Library 4.0 (Legacy)</FrameworkVersion>
-    <OutputPath>..\..\doc\</OutputPath>
+    <OutputPath>..\..\..\YallaDotNet.github.io\Yalla\</OutputPath>
     <HtmlHelpName>Yalla</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
@@ -32,7 +32,7 @@
       <DocumentationSource sourceFile="..\..\..\Yalla.GoogleApis\src\Yalla.GoogleApis\Yalla.GoogleApis.csproj" />
       <DocumentationSource sourceFile="..\Yalla\Portable.Net40\Yalla.Portable.Net40.csproj" />
     </DocumentationSources>
-    <HelpFileVersion>0.3.0</HelpFileVersion>
+    <HelpFileVersion>0.3.1</HelpFileVersion>
     <MaximumGroupParts>2</MaximumGroupParts>
     <NamespaceGrouping>False</NamespaceGrouping>
     <SyntaxFilters>Standard</SyntaxFilters>

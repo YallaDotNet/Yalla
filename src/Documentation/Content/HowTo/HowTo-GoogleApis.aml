@@ -7,7 +7,7 @@
     <introduction>
       <para>
         In order to use YALLA.NET with the Google APIs Client library,
-        the YALLA.NET Google APIs library must be added as a dependency to the main project,
+        the YALLA.NET Google APIs Client library must be added as a dependency to the main project,
         and the Google APIs Client library must be properly configured.
       </para>
     </introduction>
@@ -51,7 +51,15 @@
 
     <relatedTopics>
       <codeEntityReference>T:Yalla.GoogleApis.YallaLogger</codeEntityReference>
-      <link xlink:href="8b30360a-d84e-45bf-9fba-0f916e0bda94" />
+      <externalLink>
+        <linkUri>https://www.nuget.org/packages/Yalla.GoogleApis/</linkUri>
+        <linkText>YALLA.NET Google APIs Client on NuGet Gallery</linkText>
+      </externalLink>
+      <externalLink>
+        <linkUri>https://github.com/YallaDotNet/Yalla.GoogleApis/</linkUri>
+        <linkText>YALLA.NET Google APIs Client on GitHub</linkText>
+      </externalLink>
+      <link xlink:href="8b30360a-d84e-45bf-9fba-0f916e0bda94" topicType_id="DAC3A6A0-C863-4E5B-8F65-79EFC6A4BA09" />
     </relatedTopics>
     
   </developerHowToDocument>
